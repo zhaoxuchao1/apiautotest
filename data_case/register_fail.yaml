@@ -1,0 +1,5 @@
+- casedata: {"mobilephone": "137123456789", "pwd": "123456", "regname": "hello"}
+  expect: {"status": 0,"code": "20109", "data": None, "msg": "手机号码格式不正确"}
+
+- casedata: {"mobilephone": "13679120271", "pwd": "123", "regname": "hello"}
+  expect: {"status": 0, "code": "20108", "data": None, "msg": "密码长度必须为6~18"}

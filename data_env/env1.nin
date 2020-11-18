@@ -1,0 +1,3 @@
+[env]
+url=http://jy001:8081/
+db={"ip":"192.168.150.38","port":3306,"dbName":"apple","username":"root","pwd":"123456"}
